@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width" >
+                    <!--external CSS styles -->
+        <link rel="stylesheet" href="new nav2.css">
+        <style>
+		</style>
+		<script src="java-.js"></script>
+		<title> 365 Shutt</title>
+</head>
+<body>
+<header>
+ <!--navbar-->
+<div id="nav">
+  <ul>
+    <li href="home.html">Home</li>
+    <li href="Aboutus.html">About</li>
+    <li href="team.html">Team</li>
+    <li href="sponsor.html">Sponsors</li>
+  </ul>
+</div>
+
+<div class="mobile_nav">
+  <ul>
+     <li><a href="home.html">Home</a></li>
+    <li><a href="Aboutus.html">About</a></li>
+    <li href="team.html">Team</li>
+    <li href="sponsor.html">Sponsors</li>
+  </ul>
+
+  <div class="button1" id="hello">
+    <span></span>
+</div>
+</div>
+<div class="img">
+<img src="header.jpg">
+</div>
+</header>
+<section>
+<!-- Automatic Slideshow Images -->
+ <div id="slideshow">
+ <div>
+ <img src="jersey.jpg">
+ </div>
+ <div>
+ <img src="365shutt.jpg">
+ </div>
+ <div>
+ <img src="">
+ <p>Team photo</p>
+ </div>
+ </section>
+ <footer>
+ <div class="card">
+      <h3> Follow us</h3>
+      <p> Instagram </p><!--insert Instagram url and logo here-->
+	  <p>Facebook?</p><!--insert Facebook url and logo here-->
+    </div>
+		<div class="">
+ </footer>
+   
+		</body>
+		</html> 

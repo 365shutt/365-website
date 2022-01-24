@@ -1,0 +1,165 @@
+/* UTILITIES */
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body {
+ font-family: Sans-serif;
+}
+a {
+ text-decoration: none;
+}
+li {
+ list-style: none;
+}
+/*Site header*/
+.site-header.with-banner {
+    margin-bottom: 220px;
+}
+.site-header {
+    -webkit-box-flex: 0;
+    -ms-flex: none;
+    flex: none;
+    background-color: transparent;
+    position: relative;
+    z-index: 101;
+    background:url(header.jpg) repeat;
+    border-bottom: 45px solid #050939;
+    margin-bottom: 30px;
+}
+/* NAVBAR STYLING STARTS */
+.bg-img{
+	/* background image*/
+	background-image: url("header.jpg");
+	min-height: 550px;
+	/*Centre and scale of the image*/
+	 background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+/* Position the navbar container inside the image */
+.container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+.sidenav{ul {
+  width: 500px;
+  margin: 0 auto;
+  list-style: none;
+}
+
+.sidenav ul li {
+  color: #fff;
+  float: left;
+  line-height: 65px;
+  width: 100px;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-family: arial;
+  cursor: pointer;
+  text-align: center;
+}
+
+.sidenav ul li:hover {
+  background: #00bfb6;
+}
+
+
+/* mobile navigation bar*/
+
+.mobile_nav {
+  background: #000;
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: -250px;
+  display: none;
+  transition: all 0.5s;
+}
+
+.active {
+  left: 0;
+  transition: all 0.5s;
+}
+
+.mobile_nav ul {
+  padding: 50px 0px;
+  transition: all 0.5s;
+}
+
+.mobile_nav li {
+  color: #fff;
+  text-align: center;
+  margin: 20px 0px;
+  text-transform: uppercase;
+  font-family: arial;
+  font-weight: 900;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+	
+.button {
+  background: #ff00ff;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 0;
+  left: 250px;
+  cursor: pointer;
+  border: 0px;
+  outline: none;
+}
+
+.button span {
+  background: #fff;
+  width: 50px;
+  height: 5px;
+  display: block;
+  position: absolute;
+  top: 45%;
+  left: 15px;
+}
+
+.button span:before {
+  content: '';
+  background: #fff;
+  width: 50px;
+  height: 5px;
+  display: block;
+  position: absolute;
+  top: -12px;
+}
+
+.button span:after {
+  content: '';
+  background: #fff;
+  width: 50px;
+  height: 5px;
+  display: block;
+  position: absolute;
+  top: 12px;
+}
+
+.button.btn span {
+  background: transparent;
+  transition: all 0.5s;
+}
+
+.button.btn span:before {
+  transform: rotate(45deg);
+  top: 0;
+  transition: all 0.5s;
+}
+
+.button.btn span:after {
+  transform: rotate(-45deg);
+  top: 0;
+  transition: all 0.5s;
+}

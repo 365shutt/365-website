@@ -1,0 +1,218 @@
+<1DOC type html>
+<!-- Automatic Slideshow Images -->
+ <html lang="en">
+<head>
+<title> 365 Shutt</title>
+ <meta charset="utf-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+ <meta name="viewport" content="width=device-width, initial-scale="1.0">
+                    <!--external CSS styles -->
+        <link rel="stylesheet" href="styl.css">
+        <style>
+		</style>
+		<script src=""></script>
+</head>
+<body>
+<div class="bg-img"> 
+<div class="container">
+		             <!--navbar-->
+		<nav class="navbar">
+                      <!-- NAVIGATION MENU -->
+ <ul class="nav-links">
+                       <!-- USING CHECKBOX HACK -->
+ <input type="checkbox" id="checkbox_toggle" />
+ <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+                        <!-- NAVIGATION MENUS -->
+ <div class="menu">
+ <li><a href="/">Home</a></li>
+ <li><a href="/">About</a></li>
+ <li class="services">
+ <a href="/">Team</a>
+                         <!-- DROPDOWN MENU -->
+ <ul class="dropdown">
+ <li><a href="/">Riders </a></li>
+ <li><a href="/">Sponsors</a></li>
+ <li><a href="/">Support</a></li>
+ </ul>
+ </div>
+ <div class="mobile-nav">
+ <ul>
+  <div class="menu">
+ <li><a href="/">Home</a></li>
+ <li><a href="/">About</a></li>
+ <li class="services">
+ <a href="/">Team</a>
+                         <!-- DROPDOWN MENU -->
+ <ul class="dropdown">
+ <li><a href="/">Riders </a></li>
+ <li><a href="/">Sponsors</a></li>
+ <li><a href="/">Support</a></li>
+ </ul>
+ </div>
+ </ul>
+ </nav>
+ </div>
+ </div>
+ <!--Latest news-->
+    <div class="card">
+      <h2></h2>
+      <h5>Latest news</h5>
+      <div class="fakeimg" style="height:200px;">Image</div>
+      <p>Some text..</p>2801
+	  <div class="card" style="width 200px">
+		 <img src=" " alt="Matt East" style="width100%">
+		 <div class="container center"
+		 <p class="meduim">Matt East</p>
+		 <p>Rider</p>
+		</div>
+		<div class="card" style="width 200px">
+		 <img src=" " alt="Rich Harris" style="width100%">
+		 <div class="container center"
+		 <p class="meduim">Rich Harris</p>
+		 <p>Support</p>
+		</div>
+			              <!--About us-->
+		<div class="">
+		</div>
+		                 <!--Results-->
+		<div class="">
+		</div>
+		                  <!-- Folow Us-->
+    <div class="card">
+      <h3> Follow us</h3>
+      <p> Instagram </p><!--insert Instagram url and logo here-->
+	  <p>Facebook?</p><!--insert Facebook url and logo here-->
+    </div>
+		<div class="">
+		</div>
+		
+		 <div class="menu">
+ <li><a href="/">Home</a></li>
+ <li><a href="/">About</a></li>
+ <li class="services">
+ <a href="/">Team</a>
+                         <!-- DROPDOWN MENU -->
+ <ul class="dropdown">
+ <li><a href="/">Riders </a></li>
+ <li><a href="/">Sponsors</a></li>
+ <li><a href="/">Support</a></li>
+ </ul>
+ </div>
+  </ul>
+ </nav>
+ </div>
+ </div>
+ </div>
+ /* NAVBAR MENU */
+.nav {
+ display: flex;
+ align-items: centre;
+ gap: 1em;
+ font-size: 18px;
+}
+.nav li:hover {
+ background-color: #4c9e9e;
+ border-radius: 5px;
+ transition: 0.3s ease;
+}
+.nav li {
+ padding: 5px 14px;
+}
+/* DROPDOWN MENU */
+.services {
+ position: relative; 
+}
+.dropdown {
+ background-color: rgb(1, 139, 139);
+ padding: 1em 0;
+ position: absolute; /*WITH RESPECT TO PARENT*/
+ display: none;
+ border-radius: 8px;
+ top: 35px;
+}
+.dropdown li + li {
+ margin-top: 10px;
+}
+.dropdown li {
+ padding: 0.5em 1em;
+ width: 8em;
+ text-align: center;
+}
+.dropdown li:hover {
+ background-color: #4c9e9e;
+}
+.services:hover .dropdown {
+ display: block;
+  <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+  
+  		                  <!-- Folow Us-->
+    <div class="card">
+      <h3> Follow us</h3>
+      <p> Instagram </p><!--insert Instagram url and logo here-->
+	  <p>Facebook?</p><!--insert Facebook url and logo here-->
+    </div>
+		<div class="">
+		/* Position the navbar container inside the image */
+.container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+.card{
+	width:100%;
+	height: 400px;
+	}
+	
+	<div class="row">
+ <div class="column">
+<div class="card">
+<img src="shutt.jpg" alt="" width="100%" height="50%" >
+      <div class="container">
+        <h2>Shutt Velo Rapide</h2>
+        <p class="title"></p>
+        <p></p>
+      </div>
+    </div>
+  </div>
+  <br>
+   <div class="column">
+<div class="card">
+<img src="levelup.jpg" alt="Level Up perfomance Coaching" width="100%" height="50%">
+<div class="container">
+        <h2>Level Up perfomance Coaching</h2>
+        <p class="title"></p>
+        <p></p>
+      </div>
+    </div>
+  </div> 
+  <div class="column">
+<div class="card">
+<img src="jdcycles.jpg" alt="JD Cycles" width="100%" height="50%">
+      <div class="container">
+        <h2>JD Cycles</h2>
+        <p class="title"></p>
+        <p></p>
+      </div>
+    </div>
+  </div> 
+  <div class="column">
+<div class="card">
+<img src="ces.jpg" alt="Ces Sport" width="100%" height="50%">
+      <div class="container">
+        <h2>CES Sport</h2>
+        <p class="title"></p>
+        <p></p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+<div class="card">
+<img src="velotech.jpg" alt="Velotech services" width="100%" height="50%">
+      <div class="container">
+        <h2>Velotech services</h2>
+        <p class="title"></p>
+        <p></p>
+      </div>
+    </div>
+  </div>
+  </div>

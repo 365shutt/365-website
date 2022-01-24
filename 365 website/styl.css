@@ -1,0 +1,179 @@
+/* UTILITIES */
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body {
+ font-family: Sans-serif;
+}
+a {
+ text-decoration: none;
+}
+li {
+ list-style: none;
+}
+/*Site header*/
+.site-header.with-banner {
+    margin-bottom: 220px;
+}
+.site-header {
+    -webkit-box-flex: 0;
+    -ms-flex: none;
+    flex: none;
+    background-color: transparent;
+    position: relative;
+    z-index: 101;
+    background:url(header.jpg) repeat;
+    border-bottom: 45px solid #050939;
+    margin-bottom: 30px;
+}
+/* NAVBAR STYLING STARTS */
+
+
+
+.nav-links a {
+ color: #ffffff;
+}
+
+/*RESPONSIVE NAVBAR MENU STARTS*/
+/* CHECKBOX HACK */
+/*HAMBURGER MENU*/
+.hamburger {
+ display: block;
+ font-size: 24px;
+ user-select: none;
+}
+/* APPLYING MEDIA QUERIES */
+@media (max-width: 768px) {
+input[type=checkbox]:checked ~ .sidenav { 
+ display:none;
+ position: absolute;
+ background-color:~ff00ff;
+ right: 0;
+ left: 0;
+ text-align: center;
+ padding: 16px 0;
+}
+.sidenav li:hover {
+ display: inline-block;
+ background-color:#4c9e9e;
+ transition: 0.3s ease;
+}
+.sidenav li + li {
+ margin-top: 12px;
+}
+}
+.dropdown {
+ left: 50%;
+ top: 30px;
+ transform: translateX(35%);
+}
+.dropdown li:hover {
+ background-color: #4c9e9e;
+}
+}
+/* mobile navigation bar*/
+
+.mobile_nav {
+  background: #fff;
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: -250px;
+  display: none;
+  transition: all 0.5s;
+}
+
+.active {
+  left: 0;
+  transition: all 0.5s;
+}
+
+.mobile_nav ul {
+  padding: 50px 0px;
+  transition: all 0.5s;
+}
+
+.mobile_nav li {
+  color: #fff;
+  text-align: center;
+  margin: 20px 0px;
+  text-transform: uppercase;
+  font-family: arial;
+  font-weight: 900;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.button1 {
+  background: #ff00ff;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 0;
+  left: 250px;
+  cursor: pointer;
+  border: 0px;
+  outline: none;
+}
+
+.button1 span {
+  background: #fff;
+  width: 50px;
+  height: 5px;
+  display: block;
+  position: absolute;
+  top: 45%;
+  left: 15px;
+}
+
+.button1 span:before {
+  content: '';
+  background: #fff;
+  width: 50px;
+  height: 5px;
+  display: block;
+  position: absolute;
+  top: -12px;
+}
+
+.button1 span:after {
+  content: '';
+  background: #fff;
+  width: 50px;
+  height: 5px;
+  display: block;
+  position: absolute;
+  top: 12px;
+}
+
+.button1.btn span {
+  background: transparent;
+  transition: all 0.5s;
+}
+
+.button1.btn span:before {
+  transform: rotate(45deg);
+  top: 0;
+  transition: all 0.5s;
+}
+
+.button1.btn span:after {
+  transform: rotate(-45deg);
+  top: 0;
+  transition: all 0.5s;
+}
+
+
+/* media queries */
+
+@media all and (min-width: 0px) and (max-width: 1250px) {
+  #nav {
+    display: none;
+  }
+  .mobile_nav {
+    display: block;
+  }
+}
